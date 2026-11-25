@@ -1,9 +1,9 @@
 // import { useState } from "react";
+import type { ReactNode } from "react";
 import "./App.css";
 
-export default function App() {
-  return;
-  <section>
+export default function App(): ReactNode {
+  return <section>
     {placeholder()}
   </section>;
 }
